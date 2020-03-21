@@ -13,7 +13,13 @@
        <connection>scm:https://github.com/salagarsprabu/maven-multi-module-example.git</connection>
        <url>https://github.com/salagarsprabu/maven-multi-module-example.git</url>
        <developerConnection>scm:git:https://github.com/salagarsprabu/maven-multi-module-example.git</developerConnection>
-    </scm>     
+    </scm>
+    <distributionManagement>
+       <snapshotRepository>
+          <id>nexus</id>
+          <url>http://172.31.43.239:8081/nexus/content/repositories/snapshots</url>
+       </snapshotRepository>
+    </distributionManagement>
     <build>
       <plugins>
         <plugin>
