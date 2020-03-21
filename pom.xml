@@ -14,7 +14,7 @@
        <url>https://github.com/salagarsprabu/maven-multi-module-example.git</url>
        <developerConnection>scm:git:https://github.com/salagarsprabu/maven-multi-module-example.git</developerConnection>
     </scm>     
-    </build>
+    <build>
       <plugins>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
