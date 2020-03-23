@@ -6,12 +6,12 @@
     <parent>
         <groupId>com.jamesward</groupId>
         <artifactId>multi</artifactId>
-        <version>3.0</version>
+        <version>1.3-SNAPSHOT</version>
     </parent>
 
     <artifactId>core</artifactId>
     <name>core</name>
-    <version>3.0</version>
+    <version>1.3-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <dependencies>
